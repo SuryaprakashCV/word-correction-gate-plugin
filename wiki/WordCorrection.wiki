@@ -1,13 +1,41 @@
 #summary One-sentence summary of this page.
-This will helps POS tagger to get more accurate results on noisy texts. 
+#labels shorthand,shorthands,short-hands,gateplugin,plugin,wordcorrection,regularexpression,socialmedia,socialmediaanalytics,textanalytics,text
+Word correction plugin will enable short hand word correction in GATE 
 = Introduction =
+   This is a is a gate plugin, which helps to correct the short-hands in English text.
 
-Add your content here.
+= Problem =
 
+   Handling noisy text is one of the biggest problem facing by social media analytics. We identified 2 problems here,
+   How to analyze the comments and reviews that contains numerous noisy texts (user Comments with short hands)? 
+   How to POS Tag those texts properly with out changing the actual text? 
 
-= Details =
+= Solution =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+   People usually write comments using shorthands, and these are very flexible in nature. for example. "u r sooo sweet", "u re sooooo chweeeeet", and "you are so sweeeeeet". All these are conveying same the meaning but expressed using different words. Most of these words are not defined in English. It may vary according to the person commenting, for example: "too" can be "tooooo" or "tooooooo". But in these short hands, we identified some similarities like most of them are following similar type of patterns. like order of letters maybe same, or the same letters used to write the short hands. By analysing these scenarios we have concluded that a set of regular expressions can solve many of this 
+
+   Here we are introducing a light weight method to solve this problem using Regular expressions.It helps to Identify short hands using regular expression and help the POS tagger to process text without changing the actual text. 
+
+   There is a sample file(ExtendedList.txt) in the plugin root folder. It contains popular short hands usually present in user comments. After loading the plugin user has to point to the regex file. Users can create their own regex file or modify the existing one. format should be {regex}={word}
+
+= How it works =
+
+   It will go through all the tokens inside the text and find out matches for the regular expressions. It will change the value of Token.string to the actual word.
+
+= Download =
+   Word Correction is available here: https://code.google.com/p/word-correction-gate-plugin/downloads/list<br>
+   Check out source: svn checkout http://word-correction-gate-plugin.googlecode.com/svn/trunk/
+  
+= How to use =
+
+   1. Load plugin to gate <br>
+   2. Select "WordCorrection" from processing resource menu <br>
+   3. Select the regex file (ExtendedList) <br>
+   4. Open pipeline<br>
+       Pipeline structure <br>
+          Tokenizer<br>
+          Sentence Splitter<br>
+          WordCorrection <br>
+          POS tagger<br>
+   5. Run pipeline<br>
+   6. Check the Token.string value of short hand texts<br>
