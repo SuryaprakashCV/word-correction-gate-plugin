@@ -4,13 +4,13 @@ Word correction plugin will enable short hand word correction in GATE
 = Introduction =
    This is a is a gate plugin, which helps to correct the short-hands in English text.
 
-= Problem =
+= Problem Statement =
 
    Handling noisy text is one of the biggest problem facing by social media analytics. We identified 2 problems here,
    How to analyze the comments and reviews that contains numerous noisy texts (user Comments with short hands)? 
    How to POS Tag those texts properly with out changing the actual text? 
 
-= Solution =
+= How to solve =
 
    People usually write comments using shorthands, and these are very flexible in nature. for example. "u r sooo sweet", "u re sooooo chweeeeet", and "you are so sweeeeeet". All these are conveying same the meaning but expressed using different words. Most of these words are not defined in English. It may vary according to the person commenting, for example: "too" can be "tooooo" or "tooooooo". But in these short hands, we identified some similarities like most of them are following similar type of patterns. like order of letters maybe same, or the same letters used to write the short hands. By analysing these scenarios we have concluded that a set of regular expressions can solve many of this 
 
