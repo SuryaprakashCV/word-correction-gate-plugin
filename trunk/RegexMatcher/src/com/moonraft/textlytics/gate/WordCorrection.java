@@ -2,7 +2,7 @@
  *  WordCorrection.java
  *
  *
- * Copyright (c) 2012, Moonraft Innovations Lab 
+ * Copyright (c) 2012, Moonraft Innovation Labs 
  * (http://www.moonraft.com)
  * 
  *
