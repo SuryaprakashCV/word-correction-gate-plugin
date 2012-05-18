@@ -85,7 +85,7 @@ public @SuppressWarnings("all") class WordCorrection extends AbstractLanguageAna
 	@Override
 	public Resource init() throws ResourceInstantiationException {
 		try{
-				String strEncoding = "UTF-8";
+			    String strEncoding = "UTF-8";
 			    String strFileName = model.toString().replaceAll(("(file:)"), "");
 			    String strLineSeperator = System.getProperty("line.separator");
 			    Scanner scanner = new Scanner(new FileInputStream(strFileName), strEncoding);
