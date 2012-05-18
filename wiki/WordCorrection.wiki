@@ -12,9 +12,9 @@ Word correction plugin will enable short hand word correction in GATE
 
 = How to solve =
 
-   People usually write comments using shorthands, and these are very flexible in nature. for example. "u r sooo sweet", "u re sooooo chweeeeet", and "you are so sweeeeeet". All these are conveying same the meaning but expressed using different words. Most of these words are not defined in English. It may vary according to the person commenting, for example: "too" can be "tooooo" or "tooooooo". But in these short hands, we identified some similarities like most of them are following similar type of patterns. like order of letters maybe same, or the same letters used to write the short hands. By analysing these scenarios we have concluded that a set of regular expressions can solve many of this 
+     People usually write comments using shorthands, and these are very flexible in nature. for example. "u r sooo sweet", "u re sooooo chweeeeet", and "you are so sweeeeeet". All these are conveying the same meaning but expressed using different words. Most of these words are not defined in English. It may vary according to the person commenting, for example: "too" can be "tooooo" or "tooooooo". But in these short hands, we identified some similarities like most of them are following similar type of patterns. like order of letters maybe same, or the same letters used to write the short hands. By analysing these scenarios we have concluded that a set of regular expressions can solve many of these.
 
-   Here we are introducing a light weight method to solve this problem using Regular expressions.It helps to Identify short hands using regular expression and help the POS tagger to process text without changing the actual text. 
+  Here we are introducing a light weight method to solve this problem using Regular expressions.It helps to Identify short hands and POS tagger to process text without changing the actual text.
 
    There is a sample file(ExtendedList.txt) in the plugin root folder. It contains popular short hands usually present in user comments. After loading the plugin user has to point to the regex file. Users can create their own regex file or modify the existing one. format should be {regex}={word}
 
