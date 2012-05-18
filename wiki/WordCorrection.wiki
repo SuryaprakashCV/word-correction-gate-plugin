@@ -38,3 +38,8 @@ Word correction plugin will enable correction of misspelled words in GATE
           POS tagger<br>
    5. Run pipeline<br>
    6. Check the Token.string value of misspelled word<br>
+
+
+
+Copyright (c) 2012, Moonraft Innovation Labs 
+  (http://www.moonraft.com)
