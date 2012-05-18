@@ -8,12 +8,12 @@ Word correction plugin will enable correction of misspelled words in GATE
 
    Handling noisy text is one of the biggest problem facing by social media analytics. for example:  for example: "too" can be "tooooo" or "tooooooo".
    We identified 2 problems here,
-   How to analyze the comments and reviews that contains numerous noisy texts (user Comments with short hands)? 
+   How to analyze the comments and reviews that contains noisy texts? 
    How to POS Tag those texts properly with out changing the actual text? 
 
 = How to solve =
 
-  Here we are introducing a light weight method to solve this problem using Regular expressions.It helps to Identify short hands and POS tagger to process text without changing the actual text.
+  Here we are introducing a light weight method to solve this problem using Regular expressions.It helps to Identify misspelled words and POS tagger to process text without changing the actual text.
 
    There is a sample file(ExtendedList.txt) in the plugin root folder. It contains popular short hands usually present in user comments. After loading the plugin user has to point to the regex file. Users can create their own regex file or modify the existing one. format should be {regex}={word}
 
@@ -37,4 +37,4 @@ Word correction plugin will enable correction of misspelled words in GATE
           WordCorrection <br>
           POS tagger<br>
    5. Run pipeline<br>
-   6. Check the Token.string value of short hand texts<br>
+   6. Check the Token.string value of misspelled word<br>
