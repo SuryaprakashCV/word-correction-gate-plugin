@@ -8,7 +8,7 @@ Word correction plugin will enable correction of misspelled words in GATE
 
    Handling noisy text is one of the biggest problem facing by social media analytics. for example:  for example: "too" can be "tooooo" or "tooooooo".
    We identified 2 problems here,
-   How to analyze the comments and reviews that contains noisy texts? 
+   How to analyze the social media comments that contains noisy texts? 
    How to POS Tag those texts properly with out changing the actual text? 
 
 = How to solve =
