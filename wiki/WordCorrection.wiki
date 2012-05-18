@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 #labels shorthand,shorthands,short-hands,gateplugin,plugin,wordcorrection,regularexpression,socialmedia,socialmediaanalytics,textanalytics,text
-Word correction plugin will enable short hand word correction in GATE 
+Word correction plugin will enable correction of misspelled words in GATE 
 = Introduction =
    This is a is a gate plugin, which helps to correct the misspelled words in English text.
 
