@@ -30,7 +30,7 @@ Word correction plugin will enable short hand word correction in GATE
 
    1. Load plugin to gate <br>
    2. Select "WordCorrection" from processing resource menu <br>
-   3. Select the regex file (ExtendedList) <br>
+   3. Select the regex file (ExtendedList.txt) <br>
    4. Open pipeline<br>
        Pipeline structure <br>
           Tokenizer<br>
