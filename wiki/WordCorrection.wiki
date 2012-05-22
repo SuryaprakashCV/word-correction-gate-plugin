@@ -25,7 +25,7 @@ Word correction plugin will enable correction of misspelled words in GATE
    Word Correction is available here: https://code.google.com/p/word-correction-gate-plugin/downloads/list<br>
    Check out source: svn checkout http://word-correction-gate-plugin.googlecode.com/svn/trunk/
   
-= How to use =
+= How to use = 
 
    1. Load plugin to gate <br>
    2. Select "WordCorrection" from processing resource menu <br>
