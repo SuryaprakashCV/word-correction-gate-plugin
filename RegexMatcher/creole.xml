@@ -2,6 +2,7 @@
 <CREOLE>
    <RESOURCE>
 	<JAR SCAN="true">RegexMatcher.jar</JAR>
+	<COMMENT>Word correction will enable correction of misspelled words such as SMS language</COMMENT>
 	<CLASS>com.moonraft.textlytics.gate.WordCorrection</CLASS>
 	<PARAMETER NAME="document" RUNTIME="true">gate.Document</PARAMETER>
 	<PARAMETER NAME="inputASName" RUNTIME="true" OPTIONAL="true">java.lang.String</PARAMETER>
