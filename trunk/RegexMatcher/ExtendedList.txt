@@ -23,7 +23,6 @@
 \b(ba[a+]+d[d*]*)\b=bad
 \b(thanks[s+]+)\b=thanks
 \b(b)\b=be
-\b(c)\b=see
 \b(k)\b=ok
 \b(r)\b=are
 \b(y)\b=why
@@ -53,10 +52,9 @@
 \b(sum1)\b=someone
 \b(ez)\b=easy
 \b(njoy)\b=enjoy
-\b([hm+]+)\b=-
-\b([m+]+)\b=-
-\b([he+]+)\b=-
-\b([Ooh+]+)\b=-
+\b([h+]+[m+]+)\b=-
+\b([h+]+[e+]+)\b=-
+\b(o[oh+]+)\b=-
 \b(wo[w+]+)\b=-
 \b([h+]+[a+]+)\b=-
 \b([Bbu+]+[ha+]+)\b=-
@@ -69,3 +67,6 @@
 \b(t)\b=not
 \b(im)\b=am
 \b(lovin)\b=loving
+\b(l[o+]+[l+]+)\b=laugh
+\b(dat)\b=that
+
